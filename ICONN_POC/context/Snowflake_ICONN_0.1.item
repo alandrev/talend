@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="DEV" xmi:id="_Nym6cC0GEe-QQYOZhB_Ksg">
+    <contextParameter comment="" name="Snowflake_ICONN_jdbcParameters" prompt="Snowflake_ICONN_jdbcParameters?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6cS0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_keyAlias" prompt="Snowflake_ICONN_keyAlias?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6ci0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_userPassword_password" prompt="Snowflake_ICONN_userPassword_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:MLH6jLqCfmVxkfrqzsU+MNM+zMutXlbPm4Csvp/BSXMvqsRZJB7VRJ4nxA==" xmi:id="_Nym6cy0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_oauthProperties_clientId" prompt="Snowflake_ICONN_oauthProperties_clientId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6dC0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_oauthProperties_oauthTokenEndpoint" prompt="Snowflake_ICONN_oauthProperties_oauthTokenEndpoint?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6dS0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_oauthProperties_scope" prompt="Snowflake_ICONN_oauthProperties_scope?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6di0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_role" prompt="Snowflake_ICONN_role?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6dy0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_oauthProperties_clientSecret" prompt="Snowflake_ICONN_oauthProperties_clientSecret?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_Nym6eC0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_oauthProperties_oauthPassword" prompt="Snowflake_ICONN_oauthProperties_oauthPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_Nym6eS0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_account" prompt="Snowflake_ICONN_account?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="iconnmx.south-central-us.azure" xmi:id="_Nym6ei0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_oauthProperties_oauthUserName" prompt="Snowflake_ICONN_oauthProperties_oauthUserName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6ey0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_schemaName" prompt="Snowflake_ICONN_schemaName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SCH_LND_APPTEC" xmi:id="_Nym6fC0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_db" prompt="Snowflake_ICONN_db?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DB_DTT_POC" xmi:id="_Nym6fS0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_warehouse" prompt="Snowflake_ICONN_warehouse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="VW_APPTEC_POC_XS" xmi:id="_Nym6fi0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_loginTimeout" prompt="Snowflake_ICONN_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15" xmi:id="_Nym6fy0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_userPassword_userId" prompt="Snowflake_ICONN_userPassword_userId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="APPTEC_POC" xmi:id="_Nym6gC0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_regionID" prompt="Snowflake_ICONN_regionID?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6gS0GEe-QQYOZhB_Ksg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="PROD" xmi:id="_Nym6gi0GEe-QQYOZhB_Ksg">
+    <contextParameter comment="" name="Snowflake_ICONN_jdbcParameters" prompt="Snowflake_ICONN_jdbcParameters?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6gy0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_keyAlias" prompt="Snowflake_ICONN_keyAlias?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6hC0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_userPassword_password" prompt="Snowflake_ICONN_userPassword_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:MLH6jLqCfmVxkfrqzsU+MNM+zMutXlbPm4Csvp/BSXMvqsRZJB7VRJ4nxA==" xmi:id="_Nym6hS0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_oauthProperties_clientId" prompt="Snowflake_ICONN_oauthProperties_clientId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6hi0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_oauthProperties_oauthTokenEndpoint" prompt="Snowflake_ICONN_oauthProperties_oauthTokenEndpoint?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6hy0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_oauthProperties_scope" prompt="Snowflake_ICONN_oauthProperties_scope?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6iC0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_role" prompt="Snowflake_ICONN_role?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6iS0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_oauthProperties_clientSecret" prompt="Snowflake_ICONN_oauthProperties_clientSecret?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_Nym6ii0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_oauthProperties_oauthPassword" prompt="Snowflake_ICONN_oauthProperties_oauthPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_Nym6iy0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_account" prompt="Snowflake_ICONN_account?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="iconnmx.south-central-us.azure" xmi:id="_Nym6jC0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_oauthProperties_oauthUserName" prompt="Snowflake_ICONN_oauthProperties_oauthUserName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6jS0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_schemaName" prompt="Snowflake_ICONN_schemaName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SCH_PREP_APPTEC" xmi:id="_Nym6ji0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_db" prompt="Snowflake_ICONN_db?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DB_DTT_POC" xmi:id="_Nym6jy0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_warehouse" prompt="Snowflake_ICONN_warehouse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="VW_APPTEC_POC_XS" xmi:id="_Nym6kC0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_loginTimeout" prompt="Snowflake_ICONN_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15" xmi:id="_Nym6kS0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_userPassword_userId" prompt="Snowflake_ICONN_userPassword_userId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="APPTEC_POC" xmi:id="_Nym6ki0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_regionID" prompt="Snowflake_ICONN_regionID?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6ky0GEe-QQYOZhB_Ksg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="QA" xmi:id="_Nym6lC0GEe-QQYOZhB_Ksg">
+    <contextParameter comment="" name="Snowflake_ICONN_jdbcParameters" prompt="Snowflake_ICONN_jdbcParameters?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6lS0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_keyAlias" prompt="Snowflake_ICONN_keyAlias?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6li0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_userPassword_password" prompt="Snowflake_ICONN_userPassword_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:MLH6jLqCfmVxkfrqzsU+MNM+zMutXlbPm4Csvp/BSXMvqsRZJB7VRJ4nxA==" xmi:id="_Nym6ly0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_oauthProperties_clientId" prompt="Snowflake_ICONN_oauthProperties_clientId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6mC0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_oauthProperties_oauthTokenEndpoint" prompt="Snowflake_ICONN_oauthProperties_oauthTokenEndpoint?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6mS0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_oauthProperties_scope" prompt="Snowflake_ICONN_oauthProperties_scope?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6mi0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_role" prompt="Snowflake_ICONN_role?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6my0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_oauthProperties_clientSecret" prompt="Snowflake_ICONN_oauthProperties_clientSecret?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_Nym6nC0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_oauthProperties_oauthPassword" prompt="Snowflake_ICONN_oauthProperties_oauthPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_Nym6nS0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_account" prompt="Snowflake_ICONN_account?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="iconnmx.south-central-us.azure" xmi:id="_Nym6ni0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_oauthProperties_oauthUserName" prompt="Snowflake_ICONN_oauthProperties_oauthUserName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6ny0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_schemaName" prompt="Snowflake_ICONN_schemaName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SCH_LND_APPTEC" xmi:id="_Nym6oC0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_db" prompt="Snowflake_ICONN_db?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DB_DTT_POC" xmi:id="_Nym6oS0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_warehouse" prompt="Snowflake_ICONN_warehouse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="VW_APPTEC_POC_XS" xmi:id="_Nym6oi0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_loginTimeout" prompt="Snowflake_ICONN_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15" xmi:id="_Nym6oy0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_userPassword_userId" prompt="Snowflake_ICONN_userPassword_userId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="APPTEC_POC" xmi:id="_Nym6pC0GEe-QQYOZhB_Ksg"/>
+    <contextParameter comment="" name="Snowflake_ICONN_regionID" prompt="Snowflake_ICONN_regionID?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Nym6pS0GEe-QQYOZhB_Ksg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_79c7357f-7b11-45bc-bb2a-ec4d3db7c2e3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9/3/rG9GrdYj86jxzCS969UXZajvFF0XDuQHmKekTXw+9pFXU3Pr3Gsr5+xVydgMEAzWkYStwJ4J&#13;
+d/SJxG2Teg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2e8c4a6b-142d-4f59-a6d1-54161090118d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>UzgDES9mYCX9bv3jOkFqw7kaCfh8f9ghTggwJ1nxYZwrAUJ9Xxgb4qw/u7OVen2RpBYPPVuQtPEr&#13;
+wdVoSLUGCA==</DigestValue></Reference></SignedInfo><SignatureValue>BatVqOYMhGjFhDllJK+L4zLWDGkvTdM7lzyY7gP/jgdsKVmhpu957l59iU2T81VtOHUQGgtEeCrR&#13;
+KcgGVfVUSDS7J5w5NPBn22/jelUgEf/r2A4S8P8k+oelCA274yzKDTR6G9tWS/WkH0UJ3ODgVWt8&#13;
+B6U0kBS/c2TN2zJsZDIUrhVBmulaqlNVDQWRWTs23kS4oAH/YCEQBQM+1KFR1H+c6PRxkWJT9TdE&#13;
+sFzooSLrQUvvzodOWFYl0WxPxssFsQPqzROEU9v1uo2znMt4yd4BLIKTDUJhvX+8cDo4zp62MO50&#13;
+UerKn7xDd//YjfTDHcnKxcjke+nzkVZzJecwXQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2e8c4a6b-142d-4f59-a6d1-54161090118d" Target="#_79c7357f-7b11-45bc-bb2a-ec4d3db7c2e3"><Timestamp>2024-06-20 01:26:52</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
