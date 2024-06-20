@@ -107,6 +107,10 @@
     "id" : "_BaH_ACz_Ee-QQYOZhB_Ksg - TIENDAS",
     "version" : "Latest",
     "type" : "schema"
+  }, {
+    "id" : "_wXaAwC6yEe-v9emNiOcUcw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
