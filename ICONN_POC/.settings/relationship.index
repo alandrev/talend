@@ -1,5 +1,24 @@
 [ {
   "baseItem" : {
+    "id" : "_1s3w8C6vEe-r0rQKRVeVtw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "ICONN_POC:_K0LS0C2oEe-i15Ua2Zeixg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "ICONN_POC:_lSVx0C6nEe-mtLHeU5giuQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "ICONN_POC:_qjf0YC3hEe-mtLHeU5giuQ",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_K0LS0C2oEe-i15Ua2Zeixg",
     "version" : "0.1",
     "type" : "job"
