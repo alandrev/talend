@@ -168,5 +168,13 @@
     "id" : "_BaH_ACz_Ee-QQYOZhB_Ksg - ARTICULOS",
     "version" : "Latest",
     "type" : "schema"
+  }, {
+    "id" : "_V6lSgC9IEe-LkaFgHgsnGA - CATEGORIAS_INC",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rB444C9HEe-LkaFgHgsnGA - DEPARTAMENTOS_INC",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 } ]
