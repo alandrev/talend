@@ -27,6 +27,29 @@
     "id" : "_2MK0oC0FEe-QQYOZhB_Ksg",
     "version" : "Latest",
     "type" : "context"
+  }, {
+    "id" : "_BaH_ACz_Ee-QQYOZhB_Ksg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_BaH_ACz_Ee-QQYOZhB_Ksg - TIENDAS",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_ZmzJAC6tEe-8ScQpMsdJMw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "KJB_TALEND_DEMOS:_K0LS0C2oEe-i15Ua2Zeixg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "KJB_TALEND_DEMOS:_qjf0YC3hEe-mtLHeU5giuQ",
+    "version" : "Latest",
+    "type" : "job"
   } ]
 }, {
   "baseItem" : {
@@ -76,6 +99,14 @@
     "id" : "_2MK0oC0FEe-QQYOZhB_Ksg",
     "version" : "Latest",
     "type" : "context"
+  }, {
+    "id" : "_BaH_ACz_Ee-QQYOZhB_Ksg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_BaH_ACz_Ee-QQYOZhB_Ksg - TIENDAS",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
