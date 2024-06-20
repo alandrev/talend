@@ -1,0 +1,58 @@
+[ {
+  "baseItem" : {
+    "id" : "_K0LS0C2oEe-i15Ua2Zeixg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_2MK0oC0FEe-QQYOZhB_Ksg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_BaH_ACz_Ee-QQYOZhB_Ksg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_BaH_ACz_Ee-QQYOZhB_Ksg - TIENDAS",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_lSVx0C6nEe-mtLHeU5giuQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_2MK0oC0FEe-QQYOZhB_Ksg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_BaH_ACz_Ee-QQYOZhB_Ksg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_BaH_ACz_Ee-QQYOZhB_Ksg - ARTICULOS",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_qjf0YC3hEe-mtLHeU5giuQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_2MK0oC0FEe-QQYOZhB_Ksg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_BaH_ACz_Ee-QQYOZhB_Ksg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_BaH_ACz_Ee-QQYOZhB_Ksg - TIENDAS",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
