@@ -1,12 +1,126 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testcontainer:TestContainer xmlns:testcontainer="http://www.talend.com/testcontainer.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:id="_6yt98DMkEe-mB4k1KbTbxA" xmi:version="2.0">
-  <parameters xmi:id="_6yulADMkEe-mB4k1KbTbxA"/>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_472e28cd-986f-46bd-bb3f-c80e239802e8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>7dF6xeySL1LIX1jWiGSviEUN9DsCNfooqhPSyC/D3QZ4BGev2WY1yj5XeIjkdrJMQXAIcgRYujVq&#13;
-Fzj/uWjRNQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c20adb86-313a-4fb7-a68d-9fb7f8bbe1a3"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>cc3sjzW5/TavxY1PjSCXLG4y/wFYdVJkFYAvQ95jzA/UpP11dRhCXUroELbk4yh8LwwVlLRry80L&#13;
-y2sKlpiGJQ==</DigestValue></Reference></SignedInfo><SignatureValue>TZI7o3zBm0/Z6XQwwthGn+g02s39oUp6W2wqsBLKy3KkdTW9bdkeqkfzrk8IMZLRZvfmvSF4Q5lG&#13;
-4D4W8ABoFB3jVcITxaSQfH+io4aBDtgmD05poe+CMkzC16A1qqToTqKarQYyBazS5uABv2SjyWs3&#13;
-EAaWDSWt2pSoAmfuIH8UqUc6WG6t3nu9YyYrmpohNYImgslGK6JHNNgut4YdpAB43iaUAv+PYVcg&#13;
-15qr8jCJkvBv9xhEFEGwOw+ASsD6YMrqJeBK9i8FoYptMQPQJuUHuA6RA4Iduw6lkktXXuXfmAtr&#13;
-HjmBQawAhz7v0QoidOqAiNULwIA+fAcM2p9lhQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testcontainer:TestContainer xmlns:testcontainer="http://www.talend.com/testcontainer.ecore" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" originalJobID="_yBOz4DJYEe-7WfjWQoF1UQ" parentVersion="0.1" xmi:id="_60anEDMkEe-mB4k1KbTbxA" xmi:version="2.0">
+  <context confirmationNeeded="false" hide="false" name="Default" xmi:id="_60anETMkEe-mB4k1KbTbxA">
+    <contextParameter comment="" internalId="_v9pHcjJfEe-7WfjWQoF1UQ" name="Snowflake_ICONN_jdbcParameters" prompt="Snowflake_ICONN_jdbcParameters?" promptNeeded="false" repositoryContextId="_2MK0oC0FEe-QQYOZhB_Ksg" type="id_String" value="" xmi:id="_60anEjMkEe-mB4k1KbTbxA"/>
+    <contextParameter comment="" internalId="_v9pHczJfEe-7WfjWQoF1UQ" name="Snowflake_ICONN_keyAlias" prompt="Snowflake_ICONN_keyAlias?" promptNeeded="false" repositoryContextId="_2MK0oC0FEe-QQYOZhB_Ksg" type="id_String" value="" xmi:id="_60anEzMkEe-mB4k1KbTbxA"/>
+    <contextParameter comment="" internalId="_v9pHdDJfEe-7WfjWQoF1UQ" name="Snowflake_ICONN_userPassword_password" prompt="Snowflake_ICONN_userPassword_password?" promptNeeded="false" repositoryContextId="_2MK0oC0FEe-QQYOZhB_Ksg" type="id_Password" value="enc:system.encryption.key.v2:MAc1oDnZ2iddUSFgwue/wzkeih2Mez/4wNmAhxBMScsCqOlqHT5JrZGo8Q==" xmi:id="_60anFDMkEe-mB4k1KbTbxA"/>
+    <contextParameter comment="" internalId="_v9pHdTJfEe-7WfjWQoF1UQ" name="Snowflake_ICONN_oauthProperties_clientId" prompt="Snowflake_ICONN_oauthProperties_clientId?" promptNeeded="false" repositoryContextId="_2MK0oC0FEe-QQYOZhB_Ksg" type="id_String" value="" xmi:id="_60anFTMkEe-mB4k1KbTbxA"/>
+    <contextParameter comment="" internalId="_v9pHdjJfEe-7WfjWQoF1UQ" name="Snowflake_ICONN_oauthProperties_oauthTokenEndpoint" prompt="Snowflake_ICONN_oauthProperties_oauthTokenEndpoint?" promptNeeded="false" repositoryContextId="_2MK0oC0FEe-QQYOZhB_Ksg" type="id_String" value="" xmi:id="_60anFjMkEe-mB4k1KbTbxA"/>
+    <contextParameter comment="" internalId="_v9pHdzJfEe-7WfjWQoF1UQ" name="Snowflake_ICONN_oauthProperties_scope" prompt="Snowflake_ICONN_oauthProperties_scope?" promptNeeded="false" repositoryContextId="_2MK0oC0FEe-QQYOZhB_Ksg" type="id_String" value="" xmi:id="_60anFzMkEe-mB4k1KbTbxA"/>
+    <contextParameter comment="" internalId="_v9pHeDJfEe-7WfjWQoF1UQ" name="Snowflake_ICONN_role" prompt="Snowflake_ICONN_role?" promptNeeded="false" repositoryContextId="_2MK0oC0FEe-QQYOZhB_Ksg" type="id_String" value="" xmi:id="_60anGDMkEe-mB4k1KbTbxA"/>
+    <contextParameter comment="" internalId="_v9pHeTJfEe-7WfjWQoF1UQ" name="Snowflake_ICONN_oauthProperties_clientSecret" prompt="Snowflake_ICONN_oauthProperties_clientSecret?" promptNeeded="false" repositoryContextId="_2MK0oC0FEe-QQYOZhB_Ksg" type="id_Password" value="" xmi:id="_60anGTMkEe-mB4k1KbTbxA"/>
+    <contextParameter comment="" internalId="_v9pHejJfEe-7WfjWQoF1UQ" name="Snowflake_ICONN_oauthProperties_oauthPassword" prompt="Snowflake_ICONN_oauthProperties_oauthPassword?" promptNeeded="false" repositoryContextId="_2MK0oC0FEe-QQYOZhB_Ksg" type="id_Password" value="" xmi:id="_60anGjMkEe-mB4k1KbTbxA"/>
+    <contextParameter comment="" internalId="_v9pHezJfEe-7WfjWQoF1UQ" name="Snowflake_ICONN_account" prompt="Snowflake_ICONN_account?" promptNeeded="false" repositoryContextId="_2MK0oC0FEe-QQYOZhB_Ksg" type="id_String" value="iconnmx.south-central-us.azure" xmi:id="_60anGzMkEe-mB4k1KbTbxA"/>
+    <contextParameter comment="" internalId="_v9pHfDJfEe-7WfjWQoF1UQ" name="Snowflake_ICONN_oauthProperties_oauthUserName" prompt="Snowflake_ICONN_oauthProperties_oauthUserName?" promptNeeded="false" repositoryContextId="_2MK0oC0FEe-QQYOZhB_Ksg" type="id_String" value="" xmi:id="_60anHDMkEe-mB4k1KbTbxA"/>
+    <contextParameter comment="" internalId="_v9pHfTJfEe-7WfjWQoF1UQ" name="Snowflake_ICONN_schemaName" prompt="Snowflake_ICONN_schemaName?" promptNeeded="false" repositoryContextId="_2MK0oC0FEe-QQYOZhB_Ksg" type="id_String" value="SCH_LND_APPTEC" xmi:id="_60anHTMkEe-mB4k1KbTbxA"/>
+    <contextParameter comment="" internalId="_v9pHfjJfEe-7WfjWQoF1UQ" name="Snowflake_ICONN_db" prompt="Snowflake_ICONN_db?" promptNeeded="false" repositoryContextId="_2MK0oC0FEe-QQYOZhB_Ksg" type="id_String" value="DB_DTT_POC" xmi:id="_60anHjMkEe-mB4k1KbTbxA"/>
+    <contextParameter comment="" internalId="_v9pHfzJfEe-7WfjWQoF1UQ" name="Snowflake_ICONN_warehouse" prompt="Snowflake_ICONN_warehouse?" promptNeeded="false" repositoryContextId="_2MK0oC0FEe-QQYOZhB_Ksg" type="id_String" value="VW_APPTEC_POC_XS" xmi:id="_60anHzMkEe-mB4k1KbTbxA"/>
+    <contextParameter comment="" internalId="_v9pHgDJfEe-7WfjWQoF1UQ" name="Snowflake_ICONN_loginTimeout" prompt="Snowflake_ICONN_loginTimeout?" promptNeeded="false" repositoryContextId="_2MK0oC0FEe-QQYOZhB_Ksg" type="id_Integer" value="15" xmi:id="_60anIDMkEe-mB4k1KbTbxA"/>
+    <contextParameter comment="" internalId="_v9pHgTJfEe-7WfjWQoF1UQ" name="Snowflake_ICONN_userPassword_userId" prompt="Snowflake_ICONN_userPassword_userId?" promptNeeded="false" repositoryContextId="_2MK0oC0FEe-QQYOZhB_Ksg" type="id_String" value="APPTEC_POC" xmi:id="_60anITMkEe-mB4k1KbTbxA"/>
+    <contextParameter comment="" internalId="_v9pHgjJfEe-7WfjWQoF1UQ" name="Snowflake_ICONN_regionID" prompt="Snowflake_ICONN_regionID?" promptNeeded="false" repositoryContextId="_2MK0oC0FEe-QQYOZhB_Ksg" type="id_String" value="" xmi:id="_60anIjMkEe-mB4k1KbTbxA"/>
+  </context>
+  <parameters xmi:id="_60anIzMkEe-mB4k1KbTbxA">
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info" xmi:id="_60anJDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value="" xmi:id="_60anJTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value="" xmi:id="_60anJjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value="" xmi:id="_60anJzMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value="" xmi:id="_60anKDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value="" xmi:id="_60anKTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value="" xmi:id="_60anKjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value="" xmi:id="_60anKzMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value="" xmi:id="_60anLDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value="" xmi:id="_60anLTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value="" xmi:id="_60anLjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value="" xmi:id="_60anLzMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value="" xmi:id="_60anMDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value="" xmi:id="_60anMTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value="" xmi:id="_60anMjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value="" xmi:id="_60anMzMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="false" xmi:id="_60anNDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="false" xmi:id="_60anNTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false" xmi:id="_60anNjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000" xmi:id="_60anNzMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false" xmi:id="_60anODMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false" xmi:id="_60anOTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false" xmi:id="_60anOjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;/Applications/TalendStudio-8.0.1/studio/workspace/in.csv&quot;" xmi:id="_60anOzMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;" xmi:id="_60anPDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false" xmi:id="_60anPTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15" xmi:id="_60anPjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15" xmi:id="_60anPzMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value="" xmi:id="_60anQDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value="ORACLE_12" xmi:id="_60anQTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_60anQjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false" xmi:id="_60anQzMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_60anRDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_60anRTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_60anRjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_60anRzMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_60anSDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_60anSTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_60anSjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_60anSzMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v2:4tLjgUA3Xyvs//Zt6Jq6E+uyBY44OWti0ypidBdQ" xmi:id="_60anTDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_60anTTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_60anTjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_60anTzMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning" xmi:id="_60anUDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning" xmi:id="_60anUTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false" xmi:id="_60anUjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false" xmi:id="_60anUzMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="true" xmi:id="_60anVDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="true" xmi:id="_60anVTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false" xmi:id="_60anVjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false" xmi:id="_60anVzMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false" xmi:id="_60anWDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false" xmi:id="_60anWTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false" xmi:id="_60anWjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;/Applications/TalendStudio-8.0.1/studio/workspace/.metadata&quot;" xmi:id="_60anWzMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;" xmi:id="_60anXDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;" xmi:id="_60anXTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;" xmi:id="_60anXjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15" xmi:id="_60anXzMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15" xmi:id="_60anYDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false" xmi:id="_60anYTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="JDBCOutput" xmi:id="_60anYjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12" xmi:id="_60anYzMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;" xmi:id="_60anZDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false" xmi:id="_60anZTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;" xmi:id="_60anZjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;" xmi:id="_60anZzMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;" xmi:id="_60anaDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;" xmi:id="_60anaTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;" xmi:id="_60anajMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;" xmi:id="_60anazMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;" xmi:id="_60anbDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;" xmi:id="_60anbTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;" xmi:id="_60anbjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v2:6mYi96o9nyU6mpBOwsC9Zey8E0fW1WJbTgyT0Nk+" xmi:id="_60anbzMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;" xmi:id="_60ancDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;" xmi:id="_60ancTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;" xmi:id="_60ancjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;" xmi:id="_60anczMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true" xmi:id="_60andDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true" xmi:id="_60andTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true" xmi:id="_60andjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false" xmi:id="_60andzMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value="" xmi:id="_60aneDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false" xmi:id="_60aneTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value="" xmi:id="_60anejMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value="" xmi:id="_60anezMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value="" xmi:id="_60anfDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value="" xmi:id="_60anfTMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false" xmi:id="_60anfjMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value="" xmi:id="_60anfzMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value="" xmi:id="_60angDMkEe-mB4k1KbTbxA"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value="" xmi:id="_60angTMkEe-mB4k1KbTbxA"/>
+  </parameters>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f5567729-591c-4ca6-baf8-3211a255201b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Uwt+jh4QVa1M2g+CHpkQE7+o1Zi6YtD0HmEeovdSDt39gzsxZbs5FV2j3FLLt2hSN2mvIL1ky5N9&#13;
+f2y1M7h7qA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_74b700b3-a27d-4081-b3f4-3a06a7154e28"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ZT0ZxJ8kHqFwuxXeLoY7qy6dBa5DCiaTX8PNGjxV6i6JI8fZI9RfzD2sw4YCXlCibUr+aeR6dp13&#13;
+qRmFiPyGnQ==</DigestValue></Reference></SignedInfo><SignatureValue>B0Vq/5CEXjNXZRChg6dGAjBhOW4bvuLwih1chdGebQD8lJ/3QAwgdYEZbuDXmDJmoMSK8gexHGAE&#13;
+4+rjsNxma8W/px2mUvH6MiExkiw34n/V1uzp13gLHOakIYO6YDWYXGnv0ZUban9nGRa4skZCz2jV&#13;
+WiiyBr1/D0AQ1J7gCPTYcT0A30xuV1Ef252oiK4fEDaxyl3TMZ9GxPNr99xWDIwwvsLInFADARdx&#13;
+JZROuPPQ3a77zfWnRoZHDBL5W50z32xOhytzxBfleAhxycz5HUo9njTVuh+u+6YBhZrRVkOTdXpN&#13;
+VBurn3WXVC+SXtiCFmKnF8dtACdwNrEVNsGrIg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -28,4 +142,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c20adb86-313a-4fb7-a68d-9fb7f8bbe1a3" Target="#_472e28cd-986f-46bd-bb3f-c80e239802e8"><Timestamp>2024-06-25 18:58:32</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></testcontainer:TestContainer>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_74b700b3-a27d-4081-b3f4-3a06a7154e28" Target="#_f5567729-591c-4ca6-baf8-3211a255201b"><Timestamp>2024-06-25 18:58:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></testcontainer:TestContainer>
